@@ -26,3 +26,5 @@ jobs:
 
     - name: Run tests
       run: pytest
+    - name: Install httpx
+      run: pip install httpx
